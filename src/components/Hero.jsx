@@ -92,10 +92,9 @@ const GreetingComponent = () => {
                 <img src={HIGif} alt="Greeting GIF" style={{ width: "3em", height: "3em" }} />                
                 <h1 className="mb-0 d-inline display-4 title">{"\u00A0Hi,\u00A0I'm\u00A0"}</h1>
                 <h1 className="mb-0 d-inline display-4 title">{"Ha Le Nhut!"}</h1>
-            </div>
-            
+            </div>            
             <h3 className="mb-3 title">{"4+ YOE Full-Stack Developer"}</h3>
-            <h3 className="mb-3 title chrome">{"Welcome the Blue Dragon Communications Recruitment team 🎉🎉🎉!"}</h3>
+            {/* <h3 className="mb-3 title chrome">{"Welcome the Blue Dragon Communications Recruitment team 🎉🎉🎉!"}</h3> */}
         </div>
     );
 };
