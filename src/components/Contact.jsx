@@ -13,11 +13,11 @@ const StyledSection = styled.section`
 
 const ContactItem = ({icon, content}) => {
     return (
-        <div class="d-flex" style={{gap: '0.5rem'}}>
-            <p class="d-flex align-items-center">
+        <div className="d-flex" style={{gap: '0.5rem'}}>
+            <p className="d-flex align-items-center">
                 <Icon icon={icon} />
             </p>
-            <p class="text-truncated ms-2 normal-text text-rich-grey">{content}</p>
+            <p className="text-truncated ms-2 normal-text text-rich-grey">{content}</p>
             <p></p>
         </div>
     );

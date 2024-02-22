@@ -87,8 +87,8 @@ const StyledHero = styled.header`
 `;
 const GreetingComponent = () => {
     return (
-        <div class="greeting-text-box">            
-            <div class="d-inline-flex justify-content-center flex-wrap mb-3">
+        <div className="greeting-text-box">            
+            <div className="d-inline-flex justify-content-center flex-wrap mb-3">
                 <img src={HIGif} alt="Greeting GIF" style={{ width: "3em", height: "3em" }} />                
                 <h1 className="mb-0 d-inline display-4 title">{"\u00A0Hi,\u00A0I'm\u00A0"}</h1>
                 <h1 className="mb-0 d-inline display-4 title">{"Ha Le Nhut!"}</h1>

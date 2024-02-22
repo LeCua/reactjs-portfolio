@@ -24,7 +24,7 @@ export default function AboutMe() {
               <Container>
                 {/* <p>{bio}</p>
 {moreInfo && <p>{moreInfo}</p>} */}
-                <div class="trix-content">
+                <div className="trix-content">
                   <div>
                     <strong>Highly motivated and versatile Full-Stack Developer</strong> with{" "}
                     <strong>4+ years of experience</strong> crafting both web and mobile

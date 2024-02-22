@@ -128,7 +128,7 @@ export default function NavBar({ Logo }) {
                         <ScrollLink
                           to={el.to}
                           spy={true}
-                          activeClass="active"
+                          activeclassName="active"
                           className="nav-link"
                           onClick={closeExpanded}
                         >

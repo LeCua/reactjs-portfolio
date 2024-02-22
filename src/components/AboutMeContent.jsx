@@ -1,7 +1,7 @@
 export default function AboutMeContent() {
     return (
-        <div class="trix-content text-left">
-            <div class="mb-3">
+        <div className="trix-content text-left">
+            <div className="mb-3">
                 <strong>Highly motivated and versatile Full-Stack Developer</strong> with{" "}
                 <strong>4+ years of experience</strong> crafting both web and mobile applications.
             </div>
